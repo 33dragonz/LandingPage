@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    background-color: azure;
+
+}
+
+.header, .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000033;
+    padding: 24px 48px;
+    color: white;
+
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    padding-right:16px ;
+    list-style-type: none;
+
+}
+
+.title1{
+    font-size: x-large;
+    font-weight: 700;
+}
+.image1{padding: 22px 24px;
+    background-color: #808080;
+
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 64px auto;
+   
+}
+
+.info{
+    display: flex;
+    gap: 16px;
+    border: solid blue;
+     border-radius: 10%;
+     padding: 32px;
+     flex-direction: row;
+}
+
+.info-title {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.info-items {
+    display: flex;
+     gap: 32px;
+}
+
+.info-text {
+    padding-left: 12px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    padding: 64px 32px;
+
+    margin: 64px auto;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: dodgerblue;
+
+    width: 70%;
+    border-radius: 10px;
+
+    padding: 48px 32px;
+    margin: 64px auto;
+
+    color: white;
+}
+
+.action {
+    background-color: dodgerblue;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+}
+
+.footer {
+    background-color: navy;
+   padding: 32px 36px;
+    color: white;
+    text-align: center;
+}
